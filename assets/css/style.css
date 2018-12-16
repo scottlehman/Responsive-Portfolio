@@ -1,0 +1,406 @@
+body {
+    background-image: url("../images/gravel.png");
+}
+
+
+/* This is the Header/Navbar section */
+.header {
+    height: 60px;
+    width: 100%;
+    z-index: 5;
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.Name {
+    background: #4aaaa5;
+    color: #ffffff;
+    width: 210px;
+    height: 50px;
+    text-align: center;
+    float: left;
+    margin-left: 17.2%;
+    padding: 10px 0px 0px 0px;
+    font-size: 2em;
+    font-weight: bolder;
+    
+}
+
+.navHead {
+    margin: 0;
+    padding-top: 10px;
+    padding: 0 5px 0 5px;
+}
+
+.navBar {
+    float: right;
+    padding-right: 260px;
+    margin: 0;
+}
+
+.navBarlink {
+    float: left;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #777777;
+    padding-top: 30px;
+    padding-right: 0px;
+    font-size: 1em;
+}
+
+.navBar a:hover {
+    text-decoration: underline;
+}
+/* End Navbar section */
+
+/* This is the container I used for all pages to maintain a consistent look */
+.container {
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* This is the About me CSS */
+.head1 {
+    color: #4aaaa5;
+    z-index: 4;
+    border-color: #777777;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    font-size: 1.5em;
+    font-weight: bolder;
+    padding-bottom: 1%;
+    margin-bottom: 2%;
+}
+
+.section1 {
+    margin: auto;
+    width: 960px;
+    min-height: 350px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background: #ffffff;
+    color: #777777;
+    font-size: 1em;
+    line-height: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    clear: both;
+}
+
+
+.ProfilePic {
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+
+/* This is the section of CSS for the Contact Page */
+.section2 {
+    margin: auto;
+    width: 960px;
+    min-height: 300px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background: #ffffff;
+    color: #777777;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    clear: both;
+}
+
+.contactForm {
+    margin: 0;
+    width: 400px;
+    height: 400px;
+}
+
+input {
+    width: 400px;
+}
+
+#messageBox {
+    height: 150px;
+}
+
+.submitBtn1 {
+    margin: 20px 0px;
+    Height: 30px;
+    Width: 100px;
+    background: #4aaaa5;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    text-decoration: none;
+    border: none;
+}
+
+
+/* This is the Portfolio section */
+.section3 {
+    /* margin: auto; */
+    width: 960px;
+    min-height: 300px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background: #ffffff;
+    color: #777777;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    position: relative;
+    clear: both;
+}
+
+.containLink {
+    float: left;
+    position: relative;
+    z-index: 1;
+    height: 150px;
+    width: 150px;
+    margin: 20px 20px;
+}
+
+.pimg {
+    position: absolute;
+    z-index: 2;
+    margin: 0 0;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+a:hover {
+    color: #666666;
+}
+
+.portButton {
+    position: absolute;
+    z-index: 3;
+    height: 50px;
+    width: 150px;
+    background: #4aaaa5;
+    border: none;
+    margin-top: 95px;
+}
+
+
+/* Footer */
+.foot1 {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    background: #666666;
+    color: #ffffff;
+    font-size: smaller;
+    padding-bottom: 0;
+    padding-top: 10px;
+    border-style: solid;
+    border-color: #4aaaa5;
+    border-top: 15px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+@media screen and (max-width: 980px) {
+
+    .header {
+        width: 100%;
+
+    }
+
+    .Name {
+        margin-left: 5%;
+    }
+    
+    .navBar {
+        float: right;
+        padding: 0 2% 1% 0;
+    }
+
+    .section1 {
+        float: left;
+        margin: 5% 5%;
+        width: 500px;
+        height: auto;
+        font-size: 1em;
+        line-height: 1.5em;
+    }
+
+    .section2 {
+        float: left;
+        margin: 5% 5%;
+        width: 500px;
+        height: auto;
+        font-size: 1em;
+        line-height: 1.5em;
+    }
+
+    .section3 {
+        float: left;
+        margin: 5% 5%;
+        width: 500px;
+        height: auto;
+        font-size: 1em;
+        line-height: 1.5em;
+    }
+
+    .foot1 {
+        z-index: 4;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .header { 
+        width: 100%;
+        z-index: 5;
+    }
+    
+    .navBar {
+        float: right;
+        margin-right: 9%;
+        padding: 0;
+        
+    }
+
+    .section1 {
+        margin: 5% 5%;
+        width: 80%;
+        height: auto;
+        font-size: 1em;
+        line-height: 1.5em;
+        
+    }
+
+    .section2 {
+        margin: 5% 5%;
+        width: 80%;
+        height: auto;
+        font-size: 1em;
+        line-height: 1.5em;
+        
+    }
+
+    .section3 {
+        margin: 5% 5%;
+        width: 80%;
+        height: auto;
+        font-size: 1em;
+        line-height: 1.5em;
+        
+    }
+
+    @media screen and (max-width: 640px) {
+
+        .header{
+            position: static;
+            width: 639px;
+            height: 100px;
+        }
+
+        .Name {
+            margin: 0;
+            width: 100%;
+        }
+
+        .navBar {
+            margin: 1% 35% 0 0;
+                       
+        }
+
+        .navBarlink {
+            padding-top: 5px;
+        }
+
+        .container {
+            width: 640px;
+        }
+
+        .section1 {
+            margin: 0% 6% 2% 6%;
+            width: 80%;
+            height: 560px;
+            font-size: 1em;
+            line-height: 1.5em;
+        }
+
+        .ProfilePic {
+            clear: both;
+        }
+
+        .section2 {
+            margin: 5% 9%;
+            width: 80%;
+            height: auto;
+            font-size: 1em;
+            line-height: 1.5em;
+        }
+
+        .section3 {
+            margin: 5% 9%;
+            width: 80%;
+            height: auto;
+            font-size: 1em;
+            line-height: 1.5em;
+        }
+
+        .containLink {
+            float: left;
+            position: relative;
+            z-index: 1;
+            height: 400px;
+            width: 400px;
+            margin: 20px 20px;
+            background: #777777;
+        }
+        
+        .pimg {
+            
+
+            position: absolute;
+            z-index: 2;
+            margin: 0 0;
+        }  
+        
+        .portButton {
+            position: absolute;
+            z-index: 3;
+            font-size: 2rem;
+            height: 100px;
+            width: 400px;
+            background: #4aaaa5;
+            border: none;
+            margin-top: 250px;
+        }
+
+        .foot1 {
+            position: absolute;
+            left: 0;
+            bottom: -400px;
+            margin-top: 20px;
+        }
+
+    }
+
+  
+
+
+} 
