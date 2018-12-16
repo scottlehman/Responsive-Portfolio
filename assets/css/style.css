@@ -25,7 +25,7 @@ body {
     padding: 10px 0px 0px 0px;
     font-size: 2em;
     font-weight: bolder;
-    
+
 }
 
 .navHead {
@@ -53,6 +53,7 @@ body {
 .navBar a:hover {
     text-decoration: underline;
 }
+
 /* End Navbar section */
 
 /* This is the container I used for all pages to maintain a consistent look */
@@ -148,6 +149,7 @@ input {
 /* This is the Portfolio section */
 .section3 {
     /* margin: auto; */
+    margin: auto;
     width: 960px;
     min-height: 300px;
     padding-top: 10px;
@@ -213,10 +215,7 @@ a:hover {
     padding-top: 10px;
     border-style: solid;
     border-color: #4aaaa5;
-    border-top: 15px;
-    border-bottom: 0px;
-    border-left: 0px;
-    border-right: 0px;
+    border-width: 5px 0px 0px 0px;
 }
 
 @media screen and (max-width: 980px) {
@@ -229,7 +228,7 @@ a:hover {
     .Name {
         margin-left: 5%;
     }
-    
+
     .navBar {
         float: right;
         padding: 0 2% 1% 0;
@@ -269,16 +268,16 @@ a:hover {
 }
 
 @media screen and (max-width: 768px) {
-    .header { 
+    .header {
         width: 100%;
         z-index: 5;
     }
-    
+
     .navBar {
         float: right;
         margin-right: 9%;
         padding: 0;
-        
+
     }
 
     .section1 {
@@ -287,7 +286,7 @@ a:hover {
         height: auto;
         font-size: 1em;
         line-height: 1.5em;
-        
+
     }
 
     .section2 {
@@ -296,7 +295,7 @@ a:hover {
         height: auto;
         font-size: 1em;
         line-height: 1.5em;
-        
+
     }
 
     .section3 {
@@ -305,12 +304,12 @@ a:hover {
         height: auto;
         font-size: 1em;
         line-height: 1.5em;
-        
+
     }
 
     @media screen and (max-width: 640px) {
 
-        .header{
+        .header {
             position: static;
             width: 639px;
             height: 100px;
@@ -323,7 +322,7 @@ a:hover {
 
         .navBar {
             margin: 1% 35% 0 0;
-                       
+
         }
 
         .navBarlink {
@@ -368,18 +367,16 @@ a:hover {
             z-index: 1;
             height: 400px;
             width: 400px;
-            margin: 20px 20px;
+            margin: 20px 0px 20px 50px;
             background: #777777;
         }
-        
-        .pimg {
-            
 
+        .pimg {
             position: absolute;
             z-index: 2;
             margin: 0 0;
-        }  
-        
+        }
+
         .portButton {
             position: absolute;
             z-index: 3;
@@ -391,16 +388,6 @@ a:hover {
             margin-top: 250px;
         }
 
-        .foot1 {
-            position: absolute;
-            left: 0;
-            bottom: -400px;
-            margin-top: 20px;
-        }
-
     }
 
-  
-
-
-} 
+}
