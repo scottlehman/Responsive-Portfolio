@@ -336,13 +336,18 @@ a:hover {
         .section1 {
             margin: 0% 6% 2% 6%;
             width: 80%;
-            height: 560px;
+            height: auto;
             font-size: 1em;
             line-height: 1.5em;
         }
 
+        .picContain {
+            width: 90%;
+            height: 290px;
+        }
+
         .ProfilePic {
-            clear: both;
+            margin-left: 30%;
         }
 
         .section2 {
@@ -368,13 +373,14 @@ a:hover {
             height: 400px;
             width: 400px;
             margin: 20px 0px 20px 50px;
-            background: #777777;
         }
 
         .pimg {
             position: absolute;
             z-index: 2;
             margin: 0 0;
+            height: 400px;
+            width: 400px;
         }
 
         .portButton {
